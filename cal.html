@@ -104,7 +104,10 @@ document.querySelector('#display').value=currentDisplay">*</button>
 
 <button class="button" onclick="currentDisplay=currentDisplay+'.';
 document.querySelector('#display').value=currentDisplay">.</button>
-
+               
+      <button class="backspace" onclick=" 
+           currentDisplay=currentDisplay.slice(0,-1);
+           document.querySelector('#display').value=currentDisplay">-></button>
               
             
             
